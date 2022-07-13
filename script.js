@@ -66,5 +66,16 @@ console.log(employee1);
 console.log(employee2);
 
 //5.comparison of objects
-console.log(person1 === person2);
-console.log(employee1 === employee2);
+const myobj1 = {
+  employeName: 'sreelekha',
+  employeeCode: 5,
+  location: 'hyderabad',
+};
+const myobj2 = {
+  employeName: 'sreelekha',
+  employeeCode: 5,
+  location: 'hyderabad',
+};
+// console.log(person1 === person2);
+// console.log(employee1 === employee2);
+console.log(myobj1 === myobj2);
