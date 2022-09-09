@@ -38,7 +38,7 @@ console.log('before modification');
 console.log(person1);
 console.log(person2);
 
-person2.age = 25;
+person1.age = 25;
 
 //after modification
 console.log('after modification');
